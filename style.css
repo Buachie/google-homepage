@@ -1,6 +1,13 @@
 #logo_search{
+  display: block;
   margin:auto;
-  width: 50%;
-  height: 50%;
-  padding-left: 600px;
+  position: absolute;
+  line-height: 50%;
+  bottom: 349px;
+  right: 750px;
+  text-align: center;
+}
+
+#searchbar{
+  width: 400px;
 }
