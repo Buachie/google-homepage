@@ -1,3 +1,6 @@
+body{
+  font-family: calibri;
+}
 #logo_search{
   display: block;
   margin:auto;
@@ -10,4 +13,50 @@
 
 #searchbar{
   width: 400px;
+}
+
+#navbar ul{
+  list-style:  none;
+
+}
+
+#navbar ul li{
+  float: left;
+  padding-right: 10px;
+
+}
+
+#navbar ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+#navbar ul li a:hover{
+  text-decoration: underline;
+}
+
+.rightnav{
+  position: absolute;
+  left: 1500px;
+}
+#Store{
+  padding-left: 10px
+}
+#Gmail{
+
+  padding-left: 80px;
+}
+
+#footer{
+  position: absolute;
+  bottom: 10px;
+  float: left;
+}
+#footer a{
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+#footer a:hover{
+  text-decoration: underline;
 }
