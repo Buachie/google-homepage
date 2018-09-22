@@ -1,62 +1,86 @@
+html{
+  height: 100%;
+}
 body{
-  font-family: calibri;
+  font-family: sans-serif;
+  height: 97%;
+  margin: 0;
+  padding: 0;
 }
 #logo_search{
   display: block;
-  margin:auto;
-  position: absolute;
+  margin:0 auto;
   line-height: 50%;
-  bottom: 550px;
-  right: 750px;
   text-align: center;
+  margin-top: 300px;
+}
+
+#google{
+  margin: 0 auto;
 }
 
 #searchbar{
   width: 400px;
+  height: 25px;
+  box-shadow:  #6A6A6A;
 }
 
-#navbar ul{
+nav ul{
   list-style:  none;
-
 }
 
-#navbar ul li{
-  float: left;
-  padding-right: 10px;
-
+nav ul li{
+  display: inline-block;
 }
 
-#navbar ul li a{
+nav ul li a{
   text-decoration: none;
   color: black;
+  font-size: 12px;
 }
 
-#navbar ul li a:hover{
+nav ul li a:hover{
   text-decoration: underline;
 }
 
 .rightnav{
-  position: absolute;
-  left: 1500px;
-}
-#Store{
-  padding-left: 10px
-}
-#Gmail{
+  float: right;
+  padding-right: 10px;
 
-  padding-left: 80px;
 }
 
-#footer{
-  position: absolute;
-  bottom: 10px;
+.button{
+  border: none;
+  height: 30px;
+  background-color: #F3F3F3;
+  color: #747474;
+  font-weight: bold; 
+}
+
+.button:hover{
+  border: 1px solid;
+  background-color: default;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
   float: left;
+  background-color: #F2F2F2;
+  width: 100%;
+  padding: 10px;
 }
-#footer a{
+footer a{
   padding-left: 10px;
   text-decoration: none;
-  color: black;
+  color: #6A6A6A;
+  width: 97%;
+  font-size: 12px;
 }
-#footer a:hover{
+
+#rightfooter{
+  float: right;
+}
+footer a:hover{
   text-decoration: underline;
 }
